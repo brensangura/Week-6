@@ -6,9 +6,8 @@ data = {
     'Score': [85, 90, 95]
 }
 
-df  = pd.DataFrame(data)
+df = pd.DataFrame(data)
 # print("DataFrame:\n", df)
 
 # print("Names:", df['Age'])
 print(df[df['Score'] >= 90])
-
