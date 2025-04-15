@@ -13,3 +13,8 @@ print(randint(1, 10))  # No need to write 'random.randint'
 
 # import everything(Not recommended)
 print(sqrt(25))  # Works, but can overwrite other functions
+
+
+print("Square Root:", math.sqrt(16))  # Using math library
+print("Power of 2^3:", math.pow(2, 3))  # Using math library
+print("Random Number:", randint(1, 100))  # Using random library
