@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Manipulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .highlight {
+            background-color: yellow;
+            padding: 5px;
+        }
+        .box {
+            border: 2px solid #333;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">DOM Manipulation Project</h1>
+    </header>
+    
+    <main>
+        <section class="box">
+            <h2>Task 1: Change Text Content</h2>
+            <p id="changeable-text">This text will change when you click the button.</p>
+            <button id="change-text-btn">Change Text</button>
+        </section>
+        
+        <section class="box">
+            <h2>Task 2: Modify CSS Styles</h2>
+            <p id="style-target">Watch my style change when you click below.</p>
+            <button id="style-btn">Toggle Highlight</button>
+        </section>
+        
+        <section class="box">
+            <h2>Task 3: Add/Remove Elements</h2>
+            <div id="element-container">
+                <p>Existing element</p>
+            </div>
+            <button id="add-element-btn">Add Element</button>
+            <button id="remove-element-btn">Remove Last Element</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Created with JavaScript DOM Manipulation</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
